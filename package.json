@@ -1,0 +1,8 @@
+{
+  "name": "rcswitch-pi-webserver",
+  "description": "Remote control for sending TriState codes",
+  "private": true,
+  "dependencies": {
+    "express": "*"
+  }
+}

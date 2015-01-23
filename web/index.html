@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <link rel="stylesheet" href="main.css" />
+  <script src="jquery.min.js"></script>
+  <script src="main.js"></script>
+	<title>Remote Control</title>
+  <script>
+    /*
+      Add further buttons on demand. The title property is optional. 
+      For using the Intertechno format you can define the housecode 
+      and devicecode properties. The housecode can be anything from A 
+      to P. The devicecode can be anything from 1 to 16. Otherwise 
+      you can directly define TriState codes by using the oncode and 
+      offcode properties.
+    */
+    var buttons = [
+      {title: 'No 1', housecode : 'A', devicecode : '1'},
+      {title: 'No 2', oncode : 'F00000000FFF', offcode : 'F00000000FF0'}
+    ];
+  </script>
+</head>
+<body>
+</body>
+</html>
